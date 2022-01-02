@@ -531,19 +531,23 @@ CUSTOM STYLING
 }
 #introblocks ul li {
 	width: 18%;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	margin: 0;
 	margin-top: -100px;
 	/* test */
 	/* border: 0.35rem solid;
 	border-image: url("https://thumbs.gfycat.com/FarawayHappyBee-size_restricted.gif") cover; */
+	box-shadow: 100px black;
+	list-style-type: none;
 }
 #introblocks ul li::marker {
 	display: none;
 }
 #introblocks ul li img {
-	width: 348px;
-	height: 220px;
+	min-width: 400px;
+	width: 25vw;
+	height: 300px;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 #stats {
 	width: 100%;

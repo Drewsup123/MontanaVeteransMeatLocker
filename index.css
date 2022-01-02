@@ -103,3 +103,164 @@
       height: 100vh;
       display: none;
   }
+
+  /* 
+  ///////////////////////////////////
+                            HOME PAGE
+  ///////////////////////////////////
+  */
+  #home-body {
+    background-image: url('./images/homepage/meat_locker_backdrop.png'); 
+    /* background-size: cover; 
+    overflow-x: hidden; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position-y:center; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+  }
+  #header {
+    padding: 0px;
+  }
+  .home_nav {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,.35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-sizing: border-box;
+  }
+  .home_header {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 400px;
+  }
+  .w-30 {
+    width: 30%;
+  }
+  .w-40 {
+    width: 40%;
+  }
+  .w-50 {
+    width: 50%;
+  }
+  .w-60{
+    width: 60%;
+  }
+  .w-70 {
+    width: 70%
+  }
+  .home_header img{
+    box-sizing: border-box;
+    height: 80%;
+    width: auto;
+    padding: 10vw 10vh;
+  }
+  .polaroid a {
+    width: 400px;
+    height: 450px;
+    background: #ffffff;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+  }
+  .polaroid a:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+  .polaroid img {
+    display: block;
+    width: 390px;
+    min-height: 300px;
+    max-height: 380px;
+  }
+  .polaroid a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+  .tilt-10 {
+    transform: rotate(10deg) !important;
+  }
+  .tilt-15 {
+    transform: rotate(15deg);
+  }
+  .tilt-n10 {
+    transform: rotate(-10deg);
+  }
+  .tilt-n15 {
+    transform: rotate(-15deg);
+  }
+  .tilt-20 {
+    transform: rotate(20deg);
+  }
+  .tilt-n20 {
+    transform: rotate(-20deg);
+  }
+  .tilt-45 {
+    transform: rotate(45deg);
+  }
+  .tilt-n45 {
+    transform: rotate(-45deg);
+  }
+  .d-flex {
+    display: flex;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .flex-wrap {
+    flex-wrap: wrap
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .section-header {
+    font-size: 80px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px #ffffff;
+    color: rgb(0, 0, 131);
+  }
+  .section-content {
+    font-size: 26px;
+    color: rgb(0, 0, 131);
+    -webkit-text-stroke: 1px #555555;
+    line-height: 40px;
+  }
