@@ -104,6 +104,10 @@
       display: none;
   }
 
+  #introblocks ul li {
+    width: 30%;
+  }
+
   /* 
   ///////////////////////////////////
                             HOME PAGE
