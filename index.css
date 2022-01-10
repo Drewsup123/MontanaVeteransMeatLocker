@@ -337,9 +337,23 @@
     }
   }
   @media screen and (max-width : 950px){
+    .polaroid {
+      transform: none !important;
+      display: flex;
+      width: 100%;
+    }
+    .polaroid a{
+      max-width: 80vw;
+    }
+    .polaroid img {
+      width: 100%;
+    }
     .home_header img {
-      height: 50%;
-      width: auto;
+      padding: 0px;
+    }
+    .home_header img {
+      width: 100%;
+      height: auto;
     }
     .polaroid-1{
       width: 100%;
@@ -347,6 +361,13 @@
     .polaroid-2{
       width: 100%;
       margin-left: auto;
+    }
+    .polaroid-group {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
     }
     .home_nav #header ul li span {
       display: none;
