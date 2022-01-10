@@ -145,6 +145,9 @@
   #header {
     padding: 0px;
   }
+  .header-text {
+    font-size: 90px;
+  }
   .home_nav {
     width: 100%;
     color: #FFFFFF;
@@ -282,4 +285,98 @@
     color: rgb(0, 0, 131);
     -webkit-text-stroke: 1px #555555;
     line-height: 40px;
+  }
+
+  /* ? ----------------------------------------------------------- */
+
+  /* ?                         Mobile Styling                      */
+
+  /* ? ----------------------------------------------------------- */
+  @media screen and (max-width : 1200px){
+    .home_content {
+      display: flex;
+      flex-direction: column;
+    }
+    .about-us {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .polaroid-1{
+      width: 50%;
+      margin-right: auto;
+    }
+    .polaroid-2{
+      width: 50%;
+      margin-left: auto;
+    }
+    .how-we-operate{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width : 1200px){
+    .home_header img {
+      height: 50%;
+      width: auto;
+    }
+    .polaroid-1{
+      width: 100%;
+    }
+    .polaroid-2{
+      width: 100%;
+      margin-left: auto;
+    }
+    .home_nav #header ul li span {
+      display: none;
+    }
+    .header-text {
+      font-size: 55px;
+    }
+    .fundraiser {
+      font-size: 60px;
+    }
+    .proceeds-text{
+      text-align: center;
+      padding: 0px 10px;
+    }
+    #introblocks{
+      width: 100%;
+      padding: 20px;
+    }
+    .raffle-items{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #introblocks ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0;;
+      padding: 10px 20px;
+    }
+    #introblocks ul li img{
+      min-width: 100%;
+      width: auto;
+    }
+    #introblocks ul li{
+      width: 100%;
+      padding: 10px;
+      padding-bottom: 60px;
+    }
+    #stats {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
   }
