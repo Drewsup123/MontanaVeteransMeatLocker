@@ -209,3 +209,102 @@
     font-weight: 800;
     margin: 30px 0px;
 }
+
+.info-text-1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(10,18,255,0.6);
+}
+
+.info-text-1 strong {
+    color: red;
+}
+
+.location-text {
+    color: #32388B;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 0px #14004b;
+}
+
+.contact-text {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-text span {
+    color: #A73235;
+}
+
+.silent-auction-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: #323B8E;
+}
+
+.silent-auction-items span {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+
+#sponsors-img {
+    margin-top: 200px;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+@media screen and (max-width : 960px){
+    .home_content .prices-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_content .prices-section #ticket-prices {
+        width: 90%;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border-bottom: 15px solid black;
+        border-top: 15px solid black;
+    }
+    .home_content .prices-section #event-details{
+        margin-top: 100px;
+    }
+    .home_content .prices-section #event-details span{
+        text-align: center;
+    }
+    .info-text-1 {
+        padding: 0;
+        margin: 0;
+    }
+    #event-details {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .silent-auction-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .silent-auction-items span {
+        padding: 10px;
+    }
+}
