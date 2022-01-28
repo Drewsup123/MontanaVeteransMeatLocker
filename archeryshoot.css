@@ -271,7 +271,17 @@
     height: auto;
 }
 
+.home_header {
+    display: none;
+}
+
 @media screen and (max-width : 960px){
+    .home_header {
+        display: flex;
+    }
+    .archery-shoot .archery-shoot-header {
+        display: none;
+    }
     .home_content .prices-section {
         display: flex;
         flex-direction: column;
