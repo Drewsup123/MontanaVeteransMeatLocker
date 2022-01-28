@@ -2,6 +2,7 @@
     <head>
         <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
         <link href="./index.css" rel="stylesheet" />
+        <link href="./archeryshoot.css" rel="stylesheet" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -10,7 +11,7 @@
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     </head>
-    <body id="home-body">
+    <body id="home-body" class="archery-shoot">
         <nav class="home_nav">
                 <nav id="mainav">
                     <ul class="clear">
@@ -38,8 +39,20 @@
                 </ul>
             </header>
         </nav>
-        <header class="home_header">
-            <img class="animate__animated animate__fadeInUp" src="./images/LOGO_BG.png" />
+        <header class="archery-shoot-header">
+            <div class="archery-shoot-header-top">
+                <img class="animate__animated animate__backInUp" src="images/LOGO_BG.png" alt="Montana Veteran's Meat Locker" />
+                <h3 class="animate__animated animate__backInUp animate__delay-1s">Presents</h3>
+            </div>
+            <div class="archery-shoot-header-bottom">
+                <span id="fourth-annual-text" class="animate__animated animate__zoomIn animate__delay-2s">4th Annual</span>
+                <div id="msg-text-container" class="animate__animated animate__zoomIn animate__delay-2s">
+                    <span id="msg-text-top">MSG McNARY</span>
+                    <span id="msg-text">MSG McNARY</span>
+                </div>
+                <span class="animate__animated animate__zoomIn animate__delay-2s" id="memorial-text">MEMORIAL</span>
+            </div>
+            <img class="animate__animated animate__zoomIn animate__delay-3s" src="images/archer_shoot/archery_shoot.png" alt="Archery Shoot" />
         </header>
         <div class="home_content">
 
