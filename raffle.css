@@ -1,0 +1,117 @@
+.first-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#msg-text-top {
+    font-size: 90px;
+    color: rgb(199, 0, 0);
+    font-family: "Arial Black", Gadget, sans-serif;
+    position: absolute;
+}
+
+#msg-text-container {
+    margin-bottom: 55px;
+    transform: rotate(-5deg);
+    border-bottom: 4px solid blue;
+}
+
+#msg-text {
+    font-size: 90px;
+    color: #191b56;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 
+        0px 0px 0 white,
+        -1px 0px 0 #191B56,
+        -2px 0px 0 #191B56,
+        -3px 0px 0 #191B56,
+        -4px 0px 0 #191B56,
+        -5px 0px 0 #191B56,
+        -6px 0px 0 #191B56,
+        -7px 0px 0 #191B56,
+        -8px 0px 0 #191B56,
+        -9px 0px 0 #191B56,
+        -10px 0px 0 #191B56,
+        -11px 0px 0 #191B56,
+        -12px 0px 0 #191B56,
+        -13px 0px 0 #191B56,
+        -14px 0px 0 #191B56,
+        -15px 0px 0 #191B56,
+        -16px 0px 0 #191B56,
+        -17px 0px 0 #191B56,
+        -18px 0px 0 #191B56,
+        -19px 0px  0 #191B56,
+        -20px 0px 19px rgba(10,18,255,0.6),
+        -20px 0px 1px rgba(10,18,255,0.5),
+        0px 0px 19px rgba(10,18,255,.2);
+}
+
+.first-place-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-place-details span {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 45px;
+    width: 50%;
+}
+
+.first-place-details ul {
+    font-size: 30px;
+    font-weight: 700;
+    list-style: none;
+    color: grey;
+}
+
+.first-place-details ul li{
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.second-third-place {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-third-place strong {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.second-third-place .second-place {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-third-place .second-place .second-place-text{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 45px;
+    width: 100%;
+    color: darkblue;
+}
+
+.second-third-place .third-place {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-third-place .third-place .third-place-text {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 45px;
+    width: 100%;
+    color: darkblue;
+}
