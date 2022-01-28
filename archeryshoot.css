@@ -144,3 +144,68 @@
     height: 200px;
     width: auto;
 }
+
+.archery-shoot .archery-shoot-header #start-date-text {
+    font-size: 30px;
+    color: red;
+    font-weight: 600px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+/* ==================== */
+/* Home Content Styling */
+/* ==================== */
+
+.home_content{
+
+}
+
+.home_content .prices-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_content .prices-section #ticket-prices {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    background-color: yellow;
+    width: 50%;
+    padding: 5%;
+    border-radius: 10px;
+    border-bottom: 15px solid black;
+    border-top: 15px solid black;
+}
+
+.price-text {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.home_content .prices-section #ticket-prices #mens-prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_content .prices-section #event-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.home_content .prices-section #event-details #payback-text {
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.details-text {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 30px 0px;
+}
