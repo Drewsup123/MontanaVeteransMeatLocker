@@ -182,4 +182,22 @@
         align-items: center;
         justify-content: space-between;
     }
+    .fishing-trip {
+        flex-direction: column;
+    }
+    .first-place-details span {
+        width:90%;
+    }
+    .second-third-place .second-place {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .second-third-place .third-place {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
