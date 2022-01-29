@@ -1,6 +1,13 @@
 .body {
   padding: 20px;
 }
+.wooden-background {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-image: url("./images/homepage/meat_locker_backdrop.png");
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -134,6 +141,7 @@
     /* -webkit-animation: BackgroundOverlay 10s ease infinite;
     animation: BackgroundOverlay 10s ease infinite; */
   }
+
 
 @-webkit-keyframes BackgroundOverlay {
     0%{background-position:0% 38%}
