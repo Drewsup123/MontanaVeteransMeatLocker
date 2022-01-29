@@ -18,6 +18,47 @@
     border-bottom: 4px solid blue;
 }
 
+.contact_us_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(74, 228, 141,9);
+    color: rgb(218, 218, 218);
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+.contact_us_button a {
+    color: rgb(218, 218, 218);
+}
+
+.contact_us_button i {
+    font-size: 30px;
+}
+
+.contact_us_button strong {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contact_us_button:hover {
+    background: rgba(65, 195, 121, 1);
+}
+
+.contact_us_button:hover i {
+    color: whitesmoke;
+    transition: 1s ease-in-out;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.contact_us_button:hover strong {
+    color: #FFF;
+}
+
 #msg-text {
     font-size: 90px;
     color: #191b56;
@@ -125,6 +166,15 @@
     width: 100%;
     color: darkblue;
 }
+
+.how-to-order {
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width : 960px){
     .second-third-place {
         display: flex;
